@@ -69,6 +69,9 @@
           <configuration>
             <suiteXmlFiles>
             <suiteXmlFile>MMTtestng.xml</suiteXmlFile>
+            <suiteXmlFile>MMT1testng.xml</suiteXmlFile>
+            <suiteXmlFile>MMT2testng.xml</suiteXmlFile>
+            <suiteXmlFile>MMT3testng.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
