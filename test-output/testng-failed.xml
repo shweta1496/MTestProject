@@ -6,14 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="mmtTest.mmtTest4">
+      <class name="mmtTest.mmtTest2">
         <methods>
-          <include name="validateMultiCityButtonText"/>
-          <include name="validateRoundTripButtonText"/>
+          <include name="validateHolidayPackagesText"/>
+          <include name="validateStaysText"/>
           <include name="closeApplication"/>
           <include name="launch"/>
         </methods>
-      </class> <!-- mmtTest.mmtTest4 -->
+      </class> <!-- mmtTest.mmtTest2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -14,7 +14,7 @@ import mmtBase.base;
 import mmtPOM.mmtMainPage;
 import mmtUtility.Utility;
 
-public class mmtTest4 extends base
+public class mmtTest5 extends base 
 {
 	String excelPath = System.getProperty("user.dir") + "\\Data\\TestExcel.xlsx";
 	String mySheet = "mmt";
@@ -34,24 +34,27 @@ public class mmtTest4 extends base
 	}
 	
 	@Test(priority = -1)
-	public void validateCabsText() throws EncryptedDocumentException, IOException, InterruptedException
+	public void validateInsuranceText() throws EncryptedDocumentException, IOException, InterruptedException
 	{
-		logger.info("Getting text of cabs");
-		String actualMmtText = mainPage.getTextOfCabs();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,6);
+		logger.info("Getting text of insurance");
+		String actualMmtText = mainPage.getTextOfInsurance();
+		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,8);
 		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
 		Thread.sleep(2000);
 	}
 	
 	@Test
-	public void validateCardsText() throws EncryptedDocumentException, IOException, InterruptedException
+	public void validateOneWayButtonText() throws EncryptedDocumentException, IOException, InterruptedException
 	{
-		logger.info("Getting text of cards");
-		String actualMmtText = mainPage.getTextOfCards();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,7);
+		logger.info("Getting text of oneWay button");
+		String actualMmtText = mainPage.getTextOfOneWay();
+		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,9);
 		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
 		Thread.sleep(2000);
+		mainPage.clickOnOneWayButton();
+		Thread.sleep(3000);
 	}
+	
 	
 	@AfterMethod
 	public void closeApplication() throws InterruptedException
@@ -60,4 +63,6 @@ public class mmtTest4 extends base
 		closeBrowser();
 		Thread.sleep(3000);
 	}
+	
 }
+

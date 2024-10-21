@@ -34,31 +34,21 @@ public class mmtTest2 extends base
 	}
 	
 	@Test(priority = -1)
-	public void validateHolidayPackagesText() throws EncryptedDocumentException, IOException, InterruptedException
+	public void validateStaysText() throws EncryptedDocumentException, IOException, InterruptedException
 	{
-		logger.info("Getting text of holiday packages");
-		String actualMmtText = mainPage.getTextOfHolidayPackages();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,3);
+		logger.info("Getting text of stays");
+		String actualMmtText = mainPage.getTextOfStays();
+		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,2);
 		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
 		Thread.sleep(2000);
 	}
 	
 	@Test
-	public void validateTrainsText() throws EncryptedDocumentException, IOException, InterruptedException
+	public void validateHolidayPackagesText() throws EncryptedDocumentException, IOException, InterruptedException
 	{
-		logger.info("Getting text of trains");
-		String actualMmtText = mainPage.getTextOfTrains();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,4);
-		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
-		Thread.sleep(2000);
-	}
-	
-	@Test(priority = 1)
-	public void validateBusesText() throws EncryptedDocumentException, IOException, InterruptedException
-	{
-		logger.info("Getting text of buses");
-		String actualMmtText = mainPage.getTextOfBuses();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,5);
+		logger.info("Getting text of holiday packages");
+		String actualMmtText = mainPage.getTextOfHolidayPackages();
+		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,3);
 		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
 		Thread.sleep(2000);
 	}

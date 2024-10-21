@@ -54,16 +54,6 @@ public class mmtTest1 extends base
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority = 1)
-	public void validateStaysText() throws EncryptedDocumentException, IOException, InterruptedException
-	{
-		logger.info("Getting text of stays");
-		String actualMmtText = mainPage.getTextOfStays();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,2);
-		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
-		Thread.sleep(2000);
-	}
-	
 	@AfterMethod
 	public void closeApplication() throws InterruptedException
 	{

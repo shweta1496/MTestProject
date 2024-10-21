@@ -14,7 +14,7 @@ import mmtBase.base;
 import mmtPOM.mmtMainPage;
 import mmtUtility.Utility;
 
-public class mmtTest4 extends base
+public class mmtTest6  extends base
 {
 	String excelPath = System.getProperty("user.dir") + "\\Data\\TestExcel.xlsx";
 	String mySheet = "mmt";
@@ -33,25 +33,30 @@ public class mmtTest4 extends base
 		PropertyConfigurator.configure("log4j.properties");	
 	}
 	
-	@Test(priority = -1)
-	public void validateCabsText() throws EncryptedDocumentException, IOException, InterruptedException
+	@Test
+	public void validateMultiCityButtonText() throws EncryptedDocumentException, IOException, InterruptedException
 	{
-		logger.info("Getting text of cabs");
-		String actualMmtText = mainPage.getTextOfCabs();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,6);
+		logger.info("Getting text of multiCity button");
+		String actualMmtText = mainPage.getTextOfMultiCity();
+		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,11);
 		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
 		Thread.sleep(2000);
+		mainPage.clickOnMultiCityButton();
+		Thread.sleep(3000);
 	}
 	
-	@Test
-	public void validateCardsText() throws EncryptedDocumentException, IOException, InterruptedException
+	@Test(priority = -1)
+	public void validateRoundTripButtonText() throws EncryptedDocumentException, IOException, InterruptedException
 	{
-		logger.info("Getting text of cards");
-		String actualMmtText = mainPage.getTextOfCards();
-		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,7);
+		logger.info("Getting text of round trip button");
+		String actualMmtText = mainPage.getTextOfRoundTrip();
+		String expectedMmtText = Utility.readExcelData(excelPath, mySheet, 0,10);
 		Assert.assertEquals(actualMmtText, expectedMmtText, "Both text are different, TC Failed");
 		Thread.sleep(2000);
+		mainPage.clickOnRoundTripButton();
+		Thread.sleep(3000);
 	}
+	
 	
 	@AfterMethod
 	public void closeApplication() throws InterruptedException
@@ -60,4 +65,6 @@ public class mmtTest4 extends base
 		closeBrowser();
 		Thread.sleep(3000);
 	}
+	
 }
+
