@@ -517,3 +517,145 @@
 2024-10-19 15:55:23,287 - MyMavenProject -INFO - Closing Browser
 2024-10-19 15:55:33,228 - MyMavenProject -INFO - Getting text of multiCity button
 2024-10-19 15:55:39,095 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:06:08,024 - MyMavenProject -INFO - Getting text of holiday packages
+2024-10-19 16:06:11,869 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:06:25,325 - MyMavenProject -INFO - Getting text of trains
+2024-10-19 16:06:27,770 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:06:39,293 - MyMavenProject -INFO - Getting text of buses
+2024-10-19 16:06:41,610 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:06:53,293 - MyMavenProject -INFO - Getting text of cabs
+2024-10-19 16:06:55,460 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:07:07,349 - MyMavenProject -INFO - Getting text of cards
+2024-10-19 16:07:09,687 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:07:19,983 - MyMavenProject -INFO - Getting text of insurance
+2024-10-19 16:07:22,290 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:07:32,988 - MyMavenProject -INFO - Getting text of oneWay button
+2024-10-19 16:07:38,314 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:07:48,855 - MyMavenProject -INFO - Getting text of round trip button
+2024-10-19 16:07:54,115 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:08:05,346 - MyMavenProject -INFO - Getting text of multiCity button
+2024-10-19 16:08:10,920 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:12:47,920 - MyMavenProject -INFO - Getting text of flights
+2024-10-19 16:12:51,678 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:13:04,327 - MyMavenProject -INFO - Getting text of hotels
+2024-10-19 16:13:06,542 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:13:19,716 - MyMavenProject -INFO - Getting text of holiday packages
+2024-10-19 16:13:21,924 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:13:33,828 - MyMavenProject -INFO - Getting text of trains
+2024-10-19 16:13:36,383 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:13:48,197 - MyMavenProject -INFO - Getting text of buses
+2024-10-19 16:13:50,418 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:14:02,505 - MyMavenProject -INFO - Getting text of cabs
+2024-10-19 16:14:04,712 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:14:17,297 - MyMavenProject -INFO - Getting text of cards
+2024-10-19 16:14:19,589 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:14:31,899 - MyMavenProject -INFO - Getting text of insurance
+2024-10-19 16:14:34,189 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:14:45,846 - MyMavenProject -INFO - Getting text of oneWay button
+2024-10-19 16:14:51,147 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:15:02,116 - MyMavenProject -INFO - Getting text of round trip button
+2024-10-19 16:15:07,401 - MyMavenProject -INFO - Closing Browser
+2024-10-19 16:15:19,529 - MyMavenProject -INFO - Getting text of multiCity button
+2024-10-19 16:15:24,806 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:40:00,345 - MyMavenProject -INFO - Getting text of flights
+2024-10-20 10:40:03,773 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:40:14,267 - MyMavenProject -INFO - Getting text of hotels
+2024-10-20 10:40:16,614 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:40:26,941 - MyMavenProject -INFO - Getting text of stays
+2024-10-20 10:40:29,137 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:40:39,705 - MyMavenProject -INFO - Getting text of holiday packages
+2024-10-20 10:40:41,875 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:40:52,023 - MyMavenProject -INFO - Getting text of trains
+2024-10-20 10:40:54,155 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:41:04,510 - MyMavenProject -INFO - Getting text of buses
+2024-10-20 10:41:06,684 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:41:16,904 - MyMavenProject -INFO - Getting text of cabs
+2024-10-20 10:41:19,033 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:41:29,667 - MyMavenProject -INFO - Getting text of cards
+2024-10-20 10:41:31,816 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:41:44,238 - MyMavenProject -INFO - Getting text of insurance
+2024-10-20 10:41:46,350 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:43:21,008 - MyMavenProject -INFO - Getting text of cabs
+2024-10-20 10:43:24,425 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:43:38,919 - MyMavenProject -INFO - Getting text of cards
+2024-10-20 10:43:41,234 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:43:55,136 - MyMavenProject -INFO - Getting text of insurance
+2024-10-20 10:43:57,416 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:44:09,358 - MyMavenProject -INFO - Getting text of oneWay button
+2024-10-20 10:44:14,741 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:44:27,154 - MyMavenProject -INFO - Getting text of round trip button
+2024-10-20 10:44:32,455 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:44:43,969 - MyMavenProject -INFO - Getting text of multiCity button
+2024-10-20 10:44:49,276 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:51:14,695 - MyMavenProject -INFO - Getting text of flights
+2024-10-20 10:51:18,328 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:51:41,125 - MyMavenProject -INFO - Getting text of hotels
+2024-10-20 10:51:43,303 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:52:08,515 - MyMavenProject -INFO - Getting text of holiday packages
+2024-10-20 10:52:10,771 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:52:23,903 - MyMavenProject -INFO - Getting text of trains
+2024-10-20 10:52:26,046 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:52:41,306 - MyMavenProject -INFO - Getting text of buses
+2024-10-20 10:52:43,588 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:52:56,728 - MyMavenProject -INFO - Getting text of cabs
+2024-10-20 10:52:59,065 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:53:16,318 - MyMavenProject -INFO - Getting text of cards
+2024-10-20 10:53:18,729 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:53:29,669 - MyMavenProject -INFO - Getting text of insurance
+2024-10-20 10:53:31,939 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:53:43,131 - MyMavenProject -INFO - Getting text of oneWay button
+2024-10-20 10:53:48,551 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:57:12,946 - MyMavenProject -INFO - Getting text of flights
+2024-10-20 10:57:16,690 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:57:28,338 - MyMavenProject -INFO - Getting text of hotels
+2024-10-20 10:57:30,685 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:57:56,733 - MyMavenProject -INFO - Getting text of holiday packages
+2024-10-20 10:57:58,962 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:58:11,761 - MyMavenProject -INFO - Getting text of trains
+2024-10-20 10:58:14,035 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:58:25,769 - MyMavenProject -INFO - Getting text of buses
+2024-10-20 10:58:27,946 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:58:39,772 - MyMavenProject -INFO - Getting text of cabs
+2024-10-20 10:58:42,164 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:58:54,226 - MyMavenProject -INFO - Getting text of cards
+2024-10-20 10:58:56,396 - MyMavenProject -INFO - Closing Browser
+2024-10-20 10:59:06,884 - MyMavenProject -INFO - Getting text of insurance
+2024-10-20 10:59:09,109 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:36:31,075 - MyMavenProject -INFO - Getting text of flights
+2024-10-20 11:36:34,754 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:37:01,469 - MyMavenProject -INFO - Getting text of holiday packages
+2024-10-20 11:37:03,812 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:37:15,408 - MyMavenProject -INFO - Getting text of trains
+2024-10-20 11:37:17,581 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:37:29,024 - MyMavenProject -INFO - Getting text of buses
+2024-10-20 11:37:31,393 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:37:44,860 - MyMavenProject -INFO - Getting text of cabs
+2024-10-20 11:37:46,994 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:37:58,767 - MyMavenProject -INFO - Getting text of cards
+2024-10-20 11:38:00,938 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:38:12,443 - MyMavenProject -INFO - Getting text of insurance
+2024-10-20 11:38:14,684 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:38:26,952 - MyMavenProject -INFO - Getting text of oneWay button
+2024-10-20 11:38:32,405 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:38:49,378 - MyMavenProject -INFO - Getting text of round trip button
+2024-10-20 11:38:54,880 - MyMavenProject -INFO - Closing Browser
+2024-10-20 11:39:06,728 - MyMavenProject -INFO - Getting text of multiCity button
+2024-10-20 11:39:11,987 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:31:01,846 - MyMavenProject -INFO - Getting text of flights
+2024-10-21 12:31:06,433 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:31:21,118 - MyMavenProject -INFO - Getting text of hotels
+2024-10-21 12:31:23,392 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:31:35,855 - MyMavenProject -INFO - Getting text of stays
+2024-10-21 12:31:38,094 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:31:49,699 - MyMavenProject -INFO - Getting text of holiday packages
+2024-10-21 12:31:51,857 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:32:06,889 - MyMavenProject -INFO - Getting text of trains
+2024-10-21 12:32:09,160 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:32:20,063 - MyMavenProject -INFO - Getting text of buses
+2024-10-21 12:32:22,222 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:32:33,671 - MyMavenProject -INFO - Getting text of cabs
+2024-10-21 12:32:36,010 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:32:48,210 - MyMavenProject -INFO - Getting text of cards
+2024-10-21 12:32:50,378 - MyMavenProject -INFO - Closing Browser
+2024-10-21 12:33:01,479 - MyMavenProject -INFO - Getting text of insurance
+2024-10-21 12:33:03,667 - MyMavenProject -INFO - Closing Browser

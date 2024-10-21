@@ -68,11 +68,11 @@
           <version>3.5.1</version>
           <configuration>
             <suiteXmlFiles>
+            <suiteXmlFile>MMT3testng.xml</suiteXmlFile>
             <suiteXmlFile>MMTtestng.xml</suiteXmlFile>
             <suiteXmlFile>MMT1testng.xml</suiteXmlFile>
-            <suiteXmlFile>MMT2testng.xml</suiteXmlFile>
-            <suiteXmlFile>MMT3testng.xml</suiteXmlFile>
-            </suiteXmlFiles>
+            <suiteXmlFile>MMT2testng.xml</suiteXmlFile>          
+          </suiteXmlFiles>
           </configuration>
         </plugin>
         
